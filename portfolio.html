@@ -38,9 +38,9 @@
         content="Cybersecurity professional with a background in data science and software development.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 
     <meta property="og:type" content="website" />
     <meta name="og:description"
@@ -67,6 +67,8 @@
 </head>
 
 <body>
+<div id="page-container">
+        <div id="content-wrap">
     <div class="row">
         <div class="column">
             <p>
@@ -77,9 +79,12 @@
         <div class="column">
             <h1>Tyler M. Neher</h1>
             <h2>Portfolio</h2>
-            <table class="pure-table-bordered"  border="1" width="525" cellpadding="0.25" align="center">
+            
+            <div class="table-responsive">
+            <table class="pure-table-bordered"  border="1" cellpadding="0.25" align="center">
                 <thead>
                     <tr>
+                        <th>#</th>
                         <th>Project</th>
                         <th>Link</th>
                     </tr>
@@ -87,68 +92,80 @@
 
                 <tbody align="center">
                     <tr>
+                        <th scope="row">1</th>
                         <td>Resume</td>
                         <td><a href="https://resume.tylermneher.me">resume.tylermneher.me</a></td>
                     </tr>
                     <tr>
-                        <td>Apple Wallet Contact Card</td>
+                        <th scope="row">2</th>
+                        <td>Contact Card</td>
                         <td><a href="https://card.tylermneher.life">card.tylermneher.life</a></td>
                     </tr>
                     <tr>
-                        <td>Embedded Web Maps</td>
+                        <th scope="row">3</th>
+                        <td>Web Maps</td>
                         <td><a href="https://maps.neherdata.com">maps.neherdata.com</a></td>
                     </tr>
                     <tr>
-                        <td>NDS Ghost Hunter</td>
+                        <th scope="row">4</th>
+                        <td>Ghost Hunter</td>
                         <td><a href="https://ghosthunter.neherdata.com/">ghosthunter.neherdata.com</a>
                         </td>
                     </tr>
                     <tr>
+                        <th scope="row">5</th>
                         <td>PiggyPasser</td>
                         <td><a href="https://www.piggypasser.org">piggypasser.org</a></td>
                     </tr>
-                    
-                        <td>Microsoft AI-900</td>
+                        <th scope="row">6</th>
+                        <td>AI-900</td>
                         <td><a href="https://ai-900.tylermneher.me/">ai-900.tylermneher.me</a></td>
                     </tr>
                     <tr>
-                        <td>Microsoft AZ-900</td>
+                        <th scope="row">7</th>
+                        <td>AZ-900</td>
                         <td><a href="https://az-900.tylermneher.me/">az-900.tylermneher.me</a></td>
                     </tr>
 
                     <tr>
-                        <td>SKN United Nations</td>
+                        <th scope="row">8</th>
+                        <td>SKN UN</td>
                         <td><a href="https://skn-un.tylermneher.me">skn-un.tylermneher.me</a></td>
                     </tr>
-                    
+                    <tr>
+                        <th scope="row">9</th>
                         <td>Green Team</td>
                         <td><a href="https://green-team.tylermneher.me/">green-team.tylermneher.me</a></td>
                     </tr>
                     <tr>
+                        <th scope="row">10</th>
                         <td>IMS</td>
                         <td><a href="https://ims.tylermneher.me">ims.tylermneher.me</a></td>
                     </tr>
                     <tr>
-                        <td>Weight Date Chart</td>
+                        <th scope="row">11</th>
+                        <td>Weight Chart</td>
                         <td><a href="https://weight-date.tylermneher.me/">weight-date.tylermneher.me</a></td>
                     </tr>
                     <tr>
+                        <th scope="row">12</th>
                         <td>Mites!</td>
                         <td><a href="https://mites.tylermneher.me">mites.tylermneher.me</a></td>
                     </tr>
 
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
-    <div id="footer">
-        <p align="center">© 2024 Tyler M. Neher | <a href="contact.html">Contact Me</a> | <a rel="pgpkey"
-                href="tyler.pubkey.asc">My
-                PGP key</a></p>
+    
     </div>
-
-</body>
-<footer>
+<footer id="footer">
+        <p align="center">© 2024 Tyler M. Neher</p>
+        <p align="center"><a href="contact.html">Contact Me</a> | <a rel="pgpkey" href="tyler.pubkey.asc">PGP Key</a></p>
 </footer>
+</div>
+</body>
+
 
 </html>
