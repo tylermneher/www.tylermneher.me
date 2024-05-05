@@ -1,6 +1,7 @@
 body {
 	font-family: "Lucida Console", Courier, monospace;
 	text-align: center;
+	overflow: hidden;
 }
 
 h1 {
@@ -22,17 +23,18 @@ h3 {
 }
 
 hr {
-  margin-left: 50;
-  width: 80vw;
+	margin-left: 50;
+	width: 80vw;
 }
 
 #page-container {
-  position: relative;
-  min-height: 100vh;
+	position: relative;
+	min-height: 100vh;
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+	padding-bottom: 2.5rem;
+	/* Footer height */
 }
 
 
@@ -41,7 +43,7 @@ hr {
 	width: 100%;
 	position: absolute;
 	height: 2.5rem;
-	bottom: 0;
+	/* bottom: 0; */
 	left: 0;
 }
 
