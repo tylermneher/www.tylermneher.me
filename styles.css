@@ -11,10 +11,20 @@ h1 {
 
 h2 {
 	font-family: "Lucida Console", Courier, monospace;
+	/* font-style: oblique; */
+	text-align: center;
+}
+
+h3 {
+	font-family: "Lucida Console", Courier, monospace;
 	font-style: oblique;
 	text-align: center;
 }
 
+hr {
+  margin-left: 50;
+  width: 80vw;
+}
 
 #page-container {
   position: relative;
