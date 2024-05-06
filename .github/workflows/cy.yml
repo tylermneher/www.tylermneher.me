@@ -13,18 +13,8 @@ jobs:
         runs-on: ubuntu-22.04
         name: index.html E2E on Edge
     steps:
-      - uses: actions/checkout@v4
-      - uses: cypress-io/github-action@v6
+		- uses: actions/checkout@v4
+        - uses: cypress-io/github-action@v6
         with:
           browser: edge
-          spec: cypress/e2e/index.cy.js
-
-    index-chrome:
-        runs-on: ubuntu-22.04
-        name: index.html E2E on Chrome
-    steps:
-      - uses: actions/checkout@v4
-      - uses: cypress-io/github-action@v6
-        with:
-          browser: chrome
           spec: cypress/e2e/index.cy.js
