@@ -9,12 +9,18 @@ on:
   workflow_dispatch:
 
 jobs:
-    index-edge:
-        runs-on: ubuntu-22.04
-        name: index.html E2E on Edge
+  cypress-run:
+    name: Cypress run
+    runs-on: ubuntu-22.04
     steps:
-		- uses: actions/checkout@v4
-        - uses: cypress-io/github-action@v6
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
         with:
           browser: edge
-          spec: cypress/e2e/index.cy.js
+          spec: |
+            cypress/e2e/404.cy.js
+            cypress/e2e/contact.cy.js
+            cypress/e2e/index.cy.js
+            cypress/e2e/portfolio.cy.js
