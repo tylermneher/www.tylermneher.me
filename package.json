@@ -1,0 +1,27 @@
+{
+  "name": "www.tylermneher.me",
+  "version": "1.0.0",
+  "description": "Homepage of Tyler M. Neher",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "e2e:chrome": "cypress run --browser chromium",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylermneher/www.tylermneher.me.git"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "Tyler M. Neher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylermneher/www.tylermneher.me/issues"
+  },
+  "homepage": "https://github.com/tylermneher/www.tylermneher.me#readme",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  }
+}
