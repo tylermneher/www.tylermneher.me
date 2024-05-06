@@ -1,6 +1,7 @@
 body {
 	font-family: "Lucida Console", Courier, monospace;
 	text-align: center;
+	overflow: hidden;
 }
 
 h1 {
