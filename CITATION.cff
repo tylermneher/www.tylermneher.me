@@ -1,11 +1,10 @@
 cff-version: 1.2.0
 title: www.tylermneher.me
 message: >-
-  Tyler M. Neher (@tylermneher) Homepage, Contacts, and
-  Portfolio Page
-type: software
+  Tyler M. Neher (@tylermneher) Homepage, Contacts, and Portfolio Page
+type: website
 authors:
-  - given-names: Tyler
+  - given-names: Tyler M.
     family-names: Neher
     email: tyler@neherdata.com
     orcid: 'https://orcid.org/0000-0003-1288-730X'
@@ -28,8 +27,7 @@ identifiers:
 repository-code: 'https://github.com/tylermneher/www.tylermneher.me'
 url: 'https://www.tylermneher.me'
 abstract: >-
-  Tyler M. Neher (@tylermneher) Homepage, Contacts, and
-  Portfolio Page
+  Tyler M. Neher (@tylermneher) Homepage, Contacts, and Portfolio Page
 keywords:
   - tylermneher
   - homepage
