@@ -1,0 +1,54 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: www.tylermneher.me
+message: >-
+  Tyler M. Neher (@tylermneher) Homepage, Contacts, and
+  Portfolio Page
+type: software
+authors:
+  - given-names: Tyler
+    family-names: Neher
+    email: tyler@neherdata.com
+    orcid: 'https://orcid.org/0000-0003-1288-730X'
+    affiliation: Neher Data Systems
+  - name: Neher Data Systems
+    address: 106 Secretariat Ct
+    city: Tinton Falls
+    post-code: 07724-3845
+    region: New Jersey
+    email: hello@neherdata.com
+    tel: +1-732-614-3717
+    country: US
+    fax: +1-732-338-7791
+    date-start: '2024-01-14'
+    alias: NDS
+identifiers:
+  - type: url
+    value: 'https://www.tylermneher.me'
+    description: Homepage
+repository-code: 'https://github.com/tylermneher/www.tylermneher.me'
+url: 'https://www.tylermneher.me'
+abstract: >-
+  Tyler M. Neher (@tylermneher) Homepage, Contacts, and
+  Portfolio Page
+keywords:
+  - tylermneher
+  - homepage
+  - contact
+  - portfolio
+  - github
+  - github-pages
+  - pgp
+  - pgpkey
+  - keybase
+  - links
+license: GPL-3.0-or-later
+preferred-citation:
+  authors:
+    - family-names: Neher
+      given-names: Tyler M.
+  title: Tyler M. Neher (@tylermneher) Homepage, Contacts, and Portfolio Page
+  type: website
+  year: 2024
