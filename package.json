@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "e2e:chrome": "cypress run --browser chromium",
+    "e2e:chromium": "cypress run --browser chromium",
+    "e2e:edge": "cypress run --browser edge",
+    "e2e:firefox": "cypress run --browser firefox",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
