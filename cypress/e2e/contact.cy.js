@@ -54,6 +54,31 @@ describe("Contact", function () {
       cy.get('[data-cy="contact-body-table-instagram"]').should("have.attr", "href", "https://www.instagram.com/tylermneher");
       cy.get('[data-cy="contact-body-table-instagram"]').should("have.text", "@tylermneher");
     });
+    context("Testing the Body Table Facebook link", function () {
+      cy.get('[data-cy="contact-body-table-facebook"]').should("be.visible");
+      cy.get('[data-cy="contact-body-table-facebook"]').should("have.attr", "href", "https://www.facebook.com/tylermneher");
+      cy.get('[data-cy="contact-body-table-facebook"]').should("have.text", "@tylermneher");
+    });
+    context("Testing the Body Table Threads link", function () {
+      cy.get('[data-cy="contact-body-table-threads"]').should("be.visible");
+      cy.get('[data-cy="contact-body-table-threads"]').should("have.attr", "href", "https://www.threads.net/tylermneher");
+      cy.get('[data-cy="contact-body-table-threads"]').should("have.text", "@tylermneher");
+    });
+    context("Testing the Body Table X link", function () {
+      cy.get('[data-cy="contact-body-table-x"]').should("be.visible");
+      cy.get('[data-cy="contact-body-table-x"]').should("have.attr", "href", "https://www.twitter.com/tylermneher");
+      cy.get('[data-cy="contact-body-table-x"]').should("have.text", "@tylermneher");
+    });
+    context("Testing the Body Table YouTube link", function () {
+      cy.get('[data-cy="contact-body-table-youtube"]').should("be.visible");
+      cy.get('[data-cy="contact-body-table-youtube"]').should("have.attr", "href", "https://www.youtube.com/@tylermneher");
+      cy.get('[data-cy="contact-body-table-youtube"]').should("have.text", "@tylermneher");
+    });
+    context("Testing the Body Table Hacker News link", function () {
+      cy.get('[data-cy="contact-body-table-hackernews"]').should("be.visible");
+      cy.get('[data-cy="contact-body-table-hackernews"]').should("have.attr", "href", "https://news.ycombinator.com/user?id=tylermneher");
+      cy.get('[data-cy="contact-body-table-hackernews"]').should("have.text", "@tylermneher");
+    });
 
     // Footer Links Tests
     context("Testing the Footer Contact link", function () {
