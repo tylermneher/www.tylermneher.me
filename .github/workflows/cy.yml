@@ -3,7 +3,7 @@ name: Cypress E2E Testing
 on:
   # Runs on pushes targeting the default branch
   workflow_run:
-    workflows: ["Deploy static content to Pages"]
+    workflows: ["Deploy Static Content to Pages"]
     branches: ["main"]
     types:
       - completed
