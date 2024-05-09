@@ -18,7 +18,7 @@
     "homepage"
   ],
   "author": "Tyler M. Neher",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/tylermneher/www.tylermneher.me/issues"
   },
