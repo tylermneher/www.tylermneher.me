@@ -74,6 +74,16 @@ describe("Contact", function () {
             cy.get('[data-cy="contact-body-table-x"]').should("have.attr", "href", "https://www.twitter.com/tylermneher");
             cy.get('[data-cy="contact-body-table-x"]').should("have.text", "@tylermneher");
         });
+        context("Testing the Body Table Medium Link", function () {
+            cy.get('[data-cy="contact-body-table-medium"]').should("be.visible");
+            cy.get('[data-cy="contact-body-table-medium"]').should("have.attr", "href", "https://medium.com/@tylermneher");
+            cy.get('[data-cy="contact-body-table-medium"]').should("have.text", "@tylermneher");
+        });
+        context("Testing the Body Table Stack Overflow Link", function () {
+            cy.get('[data-cy="contact-body-table-stackoverflow"]').should("be.visible");
+            cy.get('[data-cy="contact-body-table-stackoverflow"]').should("have.attr", "href", "https://stackoverflow.com/users/12592276/tyler-m-neher");
+            cy.get('[data-cy="contact-body-table-stackoverflow"]').should("have.text", "@12592276");
+        });
         context("Testing the Body Table YouTube Link", function () {
             cy.get('[data-cy="contact-body-table-youtube"]').should("be.visible");
             cy.get('[data-cy="contact-body-table-youtube"]').should("have.attr", "href", "https://www.youtube.com/@tylermneher");
