@@ -23,6 +23,6 @@
 
 
 <div id="footer">
-    <p align="center">© 2024 Tyler M. Neher</p>
+    <p align="center">© 2025 Tyler M. Neher</p>
     <p align="center"><a data-cy="index-footer-contact" href="contact.html">Contact Me</a> | <a rel="pgpkey" href="tyler.pubkey.asc">PGP Key</a></p>
 </div>
